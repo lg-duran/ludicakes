@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.center {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+header {
+    height: 90px;
+    padding: 20px 0;
+}
+
+.logo {
+    width: 50%;
+}
+
+.menu {
+    padding-top: 15px;
+    width: 50%;
+    text-align: right;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+    margin-right: 15px;    
+}
+
+.menu a:hover {
+    color: red
+}
+
+section {    
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    height: 900px;
+    background-repeat: no-repeat;
+}
+
+.texto h1 {
+    font-size: 50px;
+    color: white;
+}
+
+.texto p {
+    font-size: 25px;
+    padding-top: 25px;
+    color: white;
+}
+
+.texto button {        
+    color: black;  
+    font-weight: bold;  
+    background-color: aqua;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 25px;
+    cursor: pointer;        
+}
+
+.texto button:hover {
+    color: black;
+    font-weight: bold;
+    border: 1px solid aqua;
+    background-color: white;
+}
